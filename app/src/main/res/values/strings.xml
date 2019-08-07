@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Health Life</string>
+    <string name="checking_label">Проверяем залогинились ли</string>
+    <string name="activity_hellouser">Привет</string>
+    <string name="activity_new">Привет</string>
+    <string name="checking_text">Проверяем логирование...</string>
+    <string name="hello_user">Привет, %1$s</string>
+</resources>
+

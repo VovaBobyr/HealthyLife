@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoneyTracker</string>
+    <string name="activity_hellouser">Hello</string>
+    <string name="checking_label">checking whether login</string>
+    <string name="checking_text">Checking logging...</string>
+    <string name="activity_new">Hello</string>
+    <string name="hello_user">Hello, %1$s</string>
+</resources>
+
