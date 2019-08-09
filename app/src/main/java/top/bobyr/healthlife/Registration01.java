@@ -1,4 +1,4 @@
-package top.bobyr.moneytracker;
+package top.bobyr.healthlife;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -17,9 +17,9 @@ public class Registration01 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration01);
 
-        final EditText editText = findViewById(R.id.input);
-        Button btn = findViewById(R.id.button);
-        final TextView textView = findViewById(R.id.output);
+        final EditText editText = findViewById(R.id.reg1_age_edit);
+        Button btn = findViewById(R.id.button_reg01);
+        final TextView textView = findViewById(R.id.reg1_name_tv);
 
         textView.setVisibility(View.INVISIBLE);
 
