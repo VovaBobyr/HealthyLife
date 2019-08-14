@@ -1,4 +1,4 @@
-package top.bobyr.moneytracker;
+package top.bobyr.healthlife;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -9,27 +9,30 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Checklogin extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checklogin);
+        setContentView(R.layout.activity_mainactivity);
         // Delay
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
 
             @Override
             public void run() {
-                View vg = findViewById(R.id.imageView2);
+                View vg = findViewById(R.id.textView);
                 vg.invalidate();
+                Intent i = new Intent();
+                String pkg = "top.bobyr.healthlife";
+                String cls = "top.bobyr.healthlife.Login";
+                i.setComponent(new ComponentName(pkg, cls));
+                MainActivity.this.startActivity(i);
+                finish();
             }
 
-        }, 10000); // 5000ms delay
+        }, 2000); // 5000ms delay
 
-        Intent intent = new Intent();
-        intent.setComponent(new ComponentName("top.bobyr.moneytracker","top.bobyr.moneytracker.MainActivity"));
-        startActivity(intent);
-        finish();
+
     }
 
 }
