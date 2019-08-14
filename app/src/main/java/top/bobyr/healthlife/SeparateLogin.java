@@ -1,14 +1,14 @@
 package top.bobyr.healthlife;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 
-public class Login2 extends AppCompatActivity {
+public class SeparateLogin extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login2);
+        setContentView(R.layout.activity_separate_login);
     }
+
 }
