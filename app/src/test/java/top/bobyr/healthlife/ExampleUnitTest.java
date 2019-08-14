@@ -1,4 +1,4 @@
-package top.bobyr.moneytracker;
+package top.bobyr.healthlife;
 
 import org.junit.Test;
 

@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">Health Life</string>
-    <string name="checking_label">Проверяем залогинились ли</string>
+    <string name="activity_start_checking_label">Проверяем логирование...</string>
+    <string name="activity_login_label">Вход</string>
     <string name="activity_hellouser">Привет</string>
     <string name="activity_new">Привет</string>
-    <string name="checking_text">Проверяем логирование...</string>
     <string name="hello_user">Привет, %1$s</string>
+
+    <string name="reg_button_text">Дальше</string>
+    <string name="reg_button_text_size">35dp</string>
+    <string name="reg_margin">20dp</string>
+    <string name="reg_tv_text_size">35dp</string>
+    <string name="reg_edit_text_size">35dp</string>
+
+
+    <string name="reg1_user_tv_text">Вес:</string>
+    <string name="reg1_user_edit_text">Введите свой вес</string>
+
+    <string name="reg2_user_tv_text">Имя:</string>
+    <string name="reg2_user_edit_text">Введите свое имя</string>
+
+    <string name="reg3_user_tv_text">Возраст:</string>
+    <string name="reg3_user_edit_text">Введите свой возраст</string>
+
 </resources>
 

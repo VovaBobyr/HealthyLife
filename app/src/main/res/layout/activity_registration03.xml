@@ -8,33 +8,33 @@
     tools:context=".Registration02">
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/reg2_age_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reg2_user_tv_text"
-        android:textSize="@string/reg_tv_text_size"
-        android:layout_margin="@string/reg_margin"
-        />
-    <EditText
-        android:id="@+id/reg2_name_edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reg2_user_edit_text"
-        android:textSize="@string/reg_edit_text_size"
-        android:textStyle="italic"
-        />
+        <TextView
+            android:id="@+id/reg3_age_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg3_user_tv_text"
+            android:textSize="@string/reg_tv_text_size"
+            android:layout_margin="@string/reg_margin"
+            />
+        <EditText
+            android:id="@+id/reg3_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg3_user_edit_text"
+            android:textSize="@string/reg_edit_text_size"
+            android:textStyle="italic"
+            />
 
-</LinearLayout>
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button_reg02"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="2"

@@ -11,43 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="top.bobyr.healthLife.Registration00"></activity>
-        <activity
-            android:name=".Checklogin"
-            android:label="@string/checking_label">
+        <activity android:name="top.bobyr.healthlife.Login">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Registration00"
-            android:label="@string/activity_hellouser">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>        <activity
-            android:name=".Registration01"
-            android:label="@string/activity_hellouser">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Registration02" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/activity_start_checking_label">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Registration00"></activity>
+        <activity android:name=".Registration01"></activity>
+        <activity android:name=".Registration02"></activity>
+        <activity android:name=".Registration03"></activity>
     </application>
 
 </manifest>
