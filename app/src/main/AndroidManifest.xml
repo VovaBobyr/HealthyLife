@@ -30,7 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registration00" />
+        <activity
+            android:name=".Registration00"
+            android:label="Registration00"/>
         <activity android:name=".Registration01" />
         <activity android:name=".Registration02" />
         <activity android:name=".Registration03" />

@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Login  extends Activity {
 
-    @Override
+    @OverrideSeparateLoginActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -17,7 +17,7 @@ public class Login  extends Activity {
         btn_separate_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-                startActivity(new Intent(Login.this, SeparateLogin.class));
+                startActivity(new Intent(Login.this, SeparateLoginActivity.class));
             }
         });
 
