@@ -1,13 +1,12 @@
 package top.bobyr.healthlife;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Registration00 extends AppCompatActivity {
+public class Registration00 extends Activity {
 
 /*    public void sendMessage(View view)
     {
@@ -24,7 +23,7 @@ public class Registration00 extends AppCompatActivity {
         btn_mail_reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-                startActivity(new Intent(Registration00.this, Registration01.class));
+                startActivity(new Intent(Registration00.this, Registration02.class));
             }
         });
 
@@ -32,7 +31,7 @@ public class Registration00 extends AppCompatActivity {
         femail_reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v2) {
-                startActivity(new Intent(Registration00.this, Registration01.class));
+                startActivity(new Intent(Registration00.this, Registration02.class));
             }
         });
 
@@ -40,14 +39,14 @@ public class Registration00 extends AppCompatActivity {
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-                startActivity(new Intent(Registration00.this, Registration01.class));
+                startActivity(new Intent(Registration00.this, Registration02.class));
             }
         });
     }
 
-    public void sendMessage(View view)
+    public void goToAnActivity(View view)
     {
-        Intent intent = new Intent(Registration00.this, Registration01.class);
+        Intent intent = new Intent(Registration00.this, Registration02.class);
         startActivity(intent);
     }
 

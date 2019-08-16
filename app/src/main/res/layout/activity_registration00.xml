@@ -18,7 +18,8 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@drawable/mail"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:onClick="goToAnActivity"/>
 
 
     <Button
@@ -41,7 +42,7 @@
         android:layout_alignParentRight="true"
         android:padding="40dip"
         android:background="@android:color/transparent"
-        android:onClick="sendMessage"/>
+        android:onClick="goToAnActivity"/>
 
 </RelativeLayout>
 

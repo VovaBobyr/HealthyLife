@@ -5,37 +5,36 @@
     android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registration02">
+    tools:context=".Registration05">
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/reg2_age_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reg2_user_tv_text"
-        android:textSize="35dp"
-        android:layout_margin="30dp"
-        />
+        <TextView
+            android:id="@+id/reg5_growth_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рост:"
+            android:textSize="35dp"
+            android:layout_margin="30dp"/>
 
-    <EditText
-        android:id="@+id/reg2_name_edit"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:layout_marginLeft="30dp"
-        android:textStyle="italic"
-        />
+        <EditText
+            android:id="@+id/reg5_growth_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="30dp"
+            android:textSize="50dp"
+            android:textStyle="italic" />
 
-</LinearLayout>
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button_reg02_next"
+        android:id="@+id/button_reg05_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="2"

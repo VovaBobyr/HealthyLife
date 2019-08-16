@@ -11,32 +11,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".RegistartionGolograma"></activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".ui.login.SeparateLoginActivity"
-            android:label="@string/title_activity_separate_login"></activity>
+            android:label="@string/title_activity_separate_login" />
         <activity
             android:name=".Login"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.LOGIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".MainActivity"
             android:label="@string/activity_start_checking_label">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Registration00"
-            android:label="Registration00"/>
-        <activity android:name=".Registration01" />
+            android:label="Registration00" />
         <activity android:name=".Registration02" />
         <activity android:name=".Registration03" />
-        <activity android:name=".SeparateLogin" />
+        <activity android:name=".Registration04" />
+        <activity android:name=".Registration05" />
     </application>
 
 </manifest>

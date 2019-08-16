@@ -6,22 +6,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import top.bobyr.healthlife.ui.login.LoginActivity;
+
 public class Login  extends Activity {
 
-    @OverrideSeparateLoginActivity
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button btn_separate_login = (Button)findViewById(R.id.login_separate_button);
-        btn_separate_login.setOnClickListener(new View.OnClickListener() {
+        Button btn_login_witn_email = (Button)findViewById(R.id.login_separate_button);
+        btn_login_witn_email.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v1) {
-                startActivity(new Intent(Login.this, SeparateLoginActivity.class));
+            public void onClick(View v2) {
+                startActivity(new Intent(Login.this, LoginActivity.class));
             }
         });
 
-        Button btn_register = (Button)findViewById(R.id.login_separate_button);
+        Button btn_register = (Button)findViewById(R.id.register_new_user);
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v2) {

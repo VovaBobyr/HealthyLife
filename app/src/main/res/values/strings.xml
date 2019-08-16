@@ -11,7 +11,7 @@
     <string name="reg_margin">20dp</string>
     <string name="reg_tv_text_size">35dp</string>
     <string name="reg_edit_text_size">35dp</string>
-
+    <string name="reg_kg">кг.</string>
 
     <string name="reg1_user_tv_text">Вес:</string>
     <string name="reg1_user_edit_text">Введите свой вес</string>
@@ -30,6 +30,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">Sign in</string>
 
 </resources>
 
