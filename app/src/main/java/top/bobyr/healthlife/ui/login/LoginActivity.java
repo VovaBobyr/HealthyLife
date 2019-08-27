@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,6 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import top.bobyr.healthlife.R;
+import top.bobyr.healthlife.RegistartionGolograma;
+import top.bobyr.healthlife.Registration05;
 import top.bobyr.healthlife.ui.login.LoginViewModel;
 import top.bobyr.healthlife.ui.login.LoginViewModelFactory;
 
@@ -75,6 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 //Complete and destroy login activity once successful
                 finish();
+                startActivity(new Intent(LoginActivity.this, RegistartionGolograma.class));
             }
         });
 

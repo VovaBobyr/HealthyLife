@@ -13,8 +13,6 @@
         android:orientation="vertical"
         android:weightSum="100">
 
-
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -22,14 +20,20 @@
         android:contentDescription="human3d"
         android:src="@drawable/humanvideo"/>
 
-        <TextView
+        <Button
+            android:id="@+id/button_more_registration"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="15" />
-        <TextView
+            android:layout_weight="15"
+            android:text="Введіть точні данні"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button_create_healthy_life"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="15" />
+            android:layout_weight="15"
+            android:text="Розрахувати програму здорового життя"/>
 
 </LinearLayout>
 

@@ -11,7 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".RegistartionGolograma"></activity>
+        <activity
+            android:name=".MainForm"
+            android:label="@string/title_activity_main_form"></activity>
+        <activity android:name=".MoreParametersActivity" />
+        <activity android:name=".RegistartionGolograma" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
